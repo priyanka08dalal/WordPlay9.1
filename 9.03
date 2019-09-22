@@ -1,0 +1,18 @@
+def avoids(word,forb):
+   for letter in forb:
+       if letter in word:
+        return False
+   return True
+    
+def no_contain():
+   for b=raw_input('enter the forbidden letters')
+   tot=0
+   ct=0
+   for line in fin:
+       word=line.strip()
+       for word in fin:
+           tot+=1
+           for letter in forb:
+               if letter in word:
+               ct+=1
+       return tot-ct
